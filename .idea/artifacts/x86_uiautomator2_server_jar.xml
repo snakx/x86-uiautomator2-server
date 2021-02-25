@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="x86-uiautomator2-server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/x86_uiautomator2_server_jar</output-path>
+    <root id="archive" name="x86-uiautomator2-server.jar">
+      <element id="module-output" name="x86-uiautomator2-server" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.7.17/mockito-core-2.7.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/vidstige/jadb/v1.1.0/jadb-v1.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.5/objenesis-2.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
