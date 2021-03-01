@@ -4,7 +4,7 @@ x86 server which connects to the **[Android UIAutomator2 Server](https://github.
 
 # How it works
 
-```
+```java
 JadbConnection jadb = new JadbConnection();
 
 // Deinstalliere Instrumentation
