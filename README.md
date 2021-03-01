@@ -26,7 +26,7 @@ jadb.getAnyDevice().push(new File("snakx-uiautomator2-server-release.apk"), new 
 jadb.getAnyDevice().executeShell("pm install -g " + Bash.quote("/data/local/tmp/snakx-uiautomator2-server-release.apk"));
 
 // Warte 7 Sekunden
-        Thread.sleep(7 * 1000);
+Thread.sleep(7 * 1000);
 
 // Starte Instrumentation
 jadb.getAnyDevice().executeShell("am instrument -w -m    -e debug false -e class 'com.github.uiautomator2.test.UiAutomator2Server' com.github.uiautomator2.test/androidx.test.runner.AndroidJUnitRunner");
